@@ -1,0 +1,25 @@
+@import "../GlobalStyles.scss";
+
+.Root {
+  display: flex;
+  flex-direction: column;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.AnswerList {
+  li {
+    text-align: left
+  }
+}
+
+.SubmitButton {
+  margin: 10px;
+}

@@ -1,0 +1,28 @@
+// color palette
+$white: #fff;
+$dark-gray: #222;
+$gray: #444;
+$light-gray: #aaa;
+$red: #f00;
+$green: #00a369;
+$dark-green: #05947c;
+
+.IProButton {
+  border: none;
+  outline: none;
+  min-width: 100px;
+  min-height: 30px;
+  padding: 10px 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.IProButton.Primary {
+  background-color: $green;
+}
+
+.IProButton.Danger {
+  background-color: $red;
+}

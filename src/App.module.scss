@@ -1,0 +1,15 @@
+@import "./GlobalStyles.scss";
+
+.Root {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+  max-width: 1500px;
+}
+
+.ProgressIndicator {
+  width: calc(100% - 10px);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
